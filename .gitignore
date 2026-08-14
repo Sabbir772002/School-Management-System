@@ -1,0 +1,25 @@
+# Docker / environment secrets
+.env
+!.env.example
+
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.db
+*.db-shm
+*.db-wal
+
+# Node
+node_modules/
+.next/
+.vercel/
+npm-debug.log*
+
+# Uploads
+backend/wwwroot/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
